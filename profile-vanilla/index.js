@@ -36,11 +36,5 @@ function greet() {
 
 }
 
-//name.addEventlistener('input', nameInput)
-
-//function nameInput(){
-//    console.log(name.value)
-//}
-
 
 
