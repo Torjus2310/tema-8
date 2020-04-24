@@ -20,6 +20,7 @@ addMeToTheSong(name + "Rinnan")
 
 tall = [25, 43, 34, 6, 90, 1, 12, 74, 64, 9]
 
+//brukes til å filtrere elementer i et array
 let newArray = tall.filter (element => element>20 & element<80)
 
 console.log(newArray)
