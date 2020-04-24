@@ -18,9 +18,11 @@ addMeToTheSong(name + "Rinnan")
 
 //oppgave 3
 
-let tall = [25, 43, 34, 6, 90, 1, 12, 74, 64, 9]
+tall = [25, 43, 34, 6, 90, 1, 12, 74, 64, 9]
 
-let results = tall.filter (tall>20)
+let newArray = tall.filter (element => element>20 & element<80)
+
+console.log(newArray)
 
 
 
